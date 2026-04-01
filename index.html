@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Personal Website - Research, Publications, and Contact Information">
+    <title>Jexy | Academic Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar (Sticky) -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Jexy</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#research" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#publications" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cv" class="nav-link">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home / About Section -->
+    <section id="home" class="section home-section">
+        <div class="container fade-in">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="home-title">Jexy</h1>
+                    <p class="home-subtitle">Machine Learning Researcher | AI Safety | Natural Language Processing</p>
+                    <p class="home-intro">
+                        I am a Ph.D. candidate at [Your University], working on [Your Research Area]. 
+                        My research focuses on developing safe and aligned AI systems that can understand 
+                        and reason about complex human preferences. I'm particularly interested in the 
+                        intersection of machine learning, cognitive science, and philosophy.
+                    </p>
+                    <div class="home-links">
+                        <a href="#publications" class="btn btn-primary">View Publications</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="home-image">
+                    <!-- Replace with your actual image -->
+                    <div class="profile-placeholder">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="100" cy="70" r="50" fill="#e5e7eb"/>
+                            <ellipse cx="100" cy="160" rx="70" ry="50" fill="#e5e7eb"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="section research-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Research</h2>
+            <div class="research-grid">
+                <!-- Research Area 1 -->
+                <div class="research-card fade-in">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-title">AI Alignment</h3>
+                    <p class="research-description">
+                        Developing methods to ensure AI systems reliably pursue human-intended goals, 
+                        even in novel situations. Focus on reward modeling and preference learning.
+                    </p>
+                </div>
+
+                <!-- Research Area 2 -->
+                <div class="research-card fade-in">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-title">Natural Language Processing</h3>
+                    <p class="research-description">
+                        Building language models that can understand context, reason about implications, 
+                        and communicate effectively with humans across diverse domains.
+                    </p>
+                </div>
+
+                <!-- Research Area 3 -->
+                <div class="research-card fade-in">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-title">Robustness & Reliability</h3>
+                    <p class="research-description">
+                        Studying how to make AI systems more robust to distribution shift, 
+                        adversarial examples, and edge cases in real-world deployments.
+                    </p>
+                </div>
+
+                <!-- Research Area 4 -->
+                <div class="research-card fade-in">
+                    <div class="research-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="research-title">Human-AI Collaboration</h3>
+                    <p class="research-description">
+                        Designing interfaces and interaction patterns that enable effective 
+                        collaboration between humans and AI systems in complex tasks.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section publications-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Publications</h2>
+            
+            <!-- 2024 Publications -->
+            <div class="publications-year fade-in">
+                <h3 class="year-title">2024</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <div class="publication-title">
+                            <a href="#" class="pub-link">Learning Human Preferences from Multi-Modal Feedback</a>
+                        </div>
+                        <div class="publication-authors">
+                            <strong>Jexy</strong>, Jane Smith, John Doe
+                        </div>
+                        <div class="publication-venue">
+                            <em>Neural Information Processing Systems (NeurIPS)</em>, 2024
+                        </div>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link-small">PDF</a>
+                            <a href="#" class="pub-link-small">DOI</a>
+                            <a href="#" class="pub-link-small">Code</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title">
+                            <a href="#" class="pub-link">Scalable Alignment via Recursive Reward Modeling</a>
+                        </div>
+                        <div class="publication-authors">
+                            Alice Johnson, <strong>Jexy</strong>, Bob Williams
+                        </div>
+                        <div class="publication-venue">
+                            <em>International Conference on Machine Learning (ICML)</em>, 2024
+                        </div>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link-small">PDF</a>
+                            <a href="#" class="pub-link-small">DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2023 Publications -->
+            <div class="publications-year fade-in">
+                <h3 class="year-title">2023</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <div class="publication-title">
+                            <a href="#" class="pub-link">Understanding Emergent Behaviors in Large Language Models</a>
+                        </div>
+                        <div class="publication-authors">
+                            <strong>Jexy</strong>, Carol Chen, David Kim
+                        </div>
+                        <div class="publication-venue">
+                            <em>Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2023
+                        </div>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link-small">PDF</a>
+                            <a href="#" class="pub-link-small">DOI</a>
+                            <a href="#" class="pub-link-small">Blog</a>
+                        </div>
+                    </div>
+
+                    <div class="publication-item">
+                        <div class="publication-title">
+                            <a href="#" class="pub-link">Robust Natural Language Inference Under Distribution Shift</a>
+                        </div>
+                        <div class="publication-authors">
+                            Eve Martinez, <strong>Jexy</strong>
+                        </div>
+                        <div class="publication-venue">
+                            <em>Association for Computational Linguistics (ACL)</em>, 2023
+                        </div>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link-small">PDF</a>
+                            <a href="#" class="pub-link-small">DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2022 Publications -->
+            <div class="publications-year fade-in">
+                <h3 class="year-title">2022</h3>
+                <div class="publication-list">
+                    <div class="publication-item">
+                        <div class="publication-title">
+                            <a href="#" class="pub-link">Preference Learning with Uncertainty Quantification</a>
+                        </div>
+                        <div class="publication-authors">
+                            <strong>Jexy</strong>, Frank Lee
+                        </div>
+                        <div class="publication-venue">
+                            <em>Conference on Uncertainty in Artificial Intelligence (UAI)</em>, 2022
+                        </div>
+                        <div class="publication-links">
+                            <a href="#" class="pub-link-small">PDF</a>
+                            <a href="#" class="pub-link-small">DOI</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+    <section id="cv" class="section cv-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Curriculum Vitae</h2>
+            
+            <div class="cv-content fade-in">
+                <!-- Education -->
+                <div class="cv-category">
+                    <h3 class="cv-category-title">Education</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">Ph.D. in Computer Science</span>
+                            <span class="cv-item-year">2022 – Present</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Your University], [Location]
+                            <br>
+                            <span class="cv-item-note">Advisor: Prof. [Advisor Name]</span>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">M.S. in Computer Science</span>
+                            <span class="cv-item-year">2020 – 2022</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Your University], [Location]
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">B.S. in Computer Science & Mathematics</span>
+                            <span class="cv-item-year">2016 – 2020</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Your University], [Location]
+                            <br>
+                            <span class="cv-item-note">Graduated with Honors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="cv-category">
+                    <h3 class="cv-category-title">Experience</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">Research Intern</span>
+                            <span class="cv-item-year">Summer 2023</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Company/Institution], [Location]
+                            <br>
+                            <span class="cv-item-note">Worked on [Project Description]</span>
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">Teaching Assistant</span>
+                            <span class="cv-item-year">2021 – 2023</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Course Name], [University]
+                            <br>
+                            <span class="cv-item-note">Led discussion sections and graded assignments</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Awards & Honors -->
+                <div class="cv-category">
+                    <h3 class="cv-category-title">Awards & Honors</h3>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">[Award Name]</span>
+                            <span class="cv-item-year">2024</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Brief description of the award]
+                        </div>
+                    </div>
+                    <div class="cv-item">
+                        <div class="cv-item-header">
+                            <span class="cv-item-title">[Fellowship Name]</span>
+                            <span class="cv-item-year">2022</span>
+                        </div>
+                        <div class="cv-item-details">
+                            [Brief description]
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-download fade-in">
+                <a href="#" class="btn btn-primary" download>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon">
+                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                    </svg>
+                    Download Full CV (PDF)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Contact</h2>
+            
+            <div class="contact-content fade-in">
+                <div class="contact-info">
+                    <p class="contact-text">
+                        I'm always interested in discussing new research ideas, collaborations, 
+                        or opportunities. Feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-links">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <a href="mailto:your.email@university.edu" class="contact-link">
+                                your.email@university.edu
+                            </a>
+                        </div>
+
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                                <circle cx="9" cy="7" r="4"/>
+                                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+                            </svg>
+                            <span class="contact-link">
+                                your-wechat-id
+                            </span>
+                        </div>
+
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="contact-icon">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                            <a href="tel:+86-123-4567-8901" class="contact-link">
+                                +86 123 4567 8901
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-academic">
+                        <h4 class="academic-title">Academic Profiles</h4>
+                        <div class="academic-links">
+                            <a href="https://scholar.google.com/citations?user=YOUR_ID" class="academic-link" target="_blank" rel="noopener">
+                                Google Scholar
+                            </a>
+                            <span class="separator">•</span>
+                            <a href="https://github.com/yourusername" class="academic-link" target="_blank" rel="noopener">
+                                GitHub
+                            </a>
+                            <span class="separator">•</span>
+                            <a href="https://www.linkedin.com/in/yourprofile" class="academic-link" target="_blank" rel="noopener">
+                                LinkedIn
+                            </a>
+                            <span class="separator">•</span>
+                            <a href="https://orcid.org/YOUR_ORCID" class="academic-link" target="_blank" rel="noopener">
+                                ORCID
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2024 Jexy. Last updated: <span id="last-updated">April 2024</span>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
